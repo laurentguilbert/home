@@ -1,0 +1,10 @@
+*.pyc
+*.sublime-project
+*.sublime-workspace
+*~
+.coverage
+.installed.cfg
+bin/
+develop-eggs/
+eggs/
+parts/

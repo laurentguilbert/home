@@ -1,0 +1,26 @@
+[user]
+	name = Laurent Guilbert
+	email = laurent@guilbert.me
+
+[core]
+	editor = emacs -nw
+	excludesfile = ~/.gitignore_global
+
+[credential]
+	helper = cache --timeout=3600
+
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	lg = log -n 5
+
+[color]
+	ui = true
+
+[push]
+	default = upstream
