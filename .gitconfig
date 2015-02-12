@@ -1,13 +1,13 @@
 [user]
-	name = Laurent Guilbert
-	email = laurent@guilbert.me
+  name = Laurent Guilbert
+  email = laurent@guilbert.me
 
 [core]
   editor = emacs -nw
   excludesfile = ~/.gitignore_global
 
 [credential]
-	helper = cache --timeout=3600
+  helper = cache --timeout=3600
 
 [alias]
   br = branch
@@ -20,7 +20,7 @@
   type = cat-file -t
 
 [color]
-	ui = true
+  ui = true
 
 [push]
-	default = upstream
+  default = upstream
