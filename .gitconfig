@@ -3,21 +3,21 @@
 	email = laurent@guilbert.me
 
 [core]
-	editor = emacs -nw
-	excludesfile = ~/.gitignore_global
+  editor = emacs -nw
+  excludesfile = ~/.gitignore_global
 
 [credential]
 	helper = cache --timeout=3600
 
 [alias]
-	co = checkout
-	ci = commit
-	st = status
-	br = branch
-	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-	type = cat-file -t
-	dump = cat-file -p
-	lg = log -n 5
+  br = branch
+  ci = commit
+  co = checkout
+  dump = cat-file -p
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  lg = log -n 5
+  st = status
+  type = cat-file -t
 
 [color]
 	ui = true
