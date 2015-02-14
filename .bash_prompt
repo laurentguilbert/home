@@ -1,0 +1,9 @@
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+
+# Clone git-aware-prompt if it doesn't exist.
+if [ ! -d "$GITAWAREPROMPT" ]; then
+   git clone git://github.com/jimeh/git-aware-prompt.git $GITAWAREPROMPT
+fi
+
+source $GITAWAREPROMPT/main.sh
+export PS1="\u@\h:\W\[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
