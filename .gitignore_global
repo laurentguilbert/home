@@ -2,7 +2,9 @@
 *.sublime-project
 *.sublime-workspace
 *~
+._.DS_Store
 .coverage
+.DS_Store
 .installed.cfg
 bin/
 develop-eggs/
