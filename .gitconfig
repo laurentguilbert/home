@@ -6,6 +6,9 @@
   editor = emacs -nw
   excludesfile = ~/.gitignore_global
 
+[init]
+  templatedir = ~/.git_template
+
 [credential]
   helper = cache --timeout=3600
 

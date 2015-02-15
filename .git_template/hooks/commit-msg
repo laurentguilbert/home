@@ -1,0 +1,12 @@
+#!/bin/bash
+# Adds github issue number to commit message based on current branch name.
+# Example: current branch 'context-help-issue-385', commit message 'fix bug',
+# final commit message will be '#385 fix bug'
+if [ "$NOPREFIX" ]; then
+  exit 0
+fi
+
+number=$(git branch | grep '*' | sed 's/* //' | grep -oE "[^-]+$")
+if [[ "$number" =~ ^[0-9]+$ ]] ; then
+  echo '#'"$number"' - '$(cat "$1") > "$1"
+fi
