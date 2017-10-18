@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"Color Highlighter",
+		"CSS3",
+		"GitGutter",
+		"JSX",
+		"LESS",
+		"LiveReload",
+		"Markdown Preview",
+		"Material Theme",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json"
+	]
+}
